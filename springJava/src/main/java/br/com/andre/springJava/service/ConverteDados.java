@@ -4,6 +4,7 @@ import br.com.andre.springJava.model.DadosSerie;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+// Tranforma os dados de Json para uma linguagem que o java entenda e vice-versa
 public class ConverteDados implements IConverteDados{
 
     private ObjectMapper mapper = new ObjectMapper();
